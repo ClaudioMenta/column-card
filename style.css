@@ -1,0 +1,102 @@
+body {
+    height: 1440px;
+    width: 1440px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+header, footer, section {
+    width: inherit;
+    margin-left: 40%;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
+img {
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+button:hover {
+    box-shadow: 1px 0px 12px 8px #ffffff;
+    background-color: #bfbfbf;
+}
+
+
+.button1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.button2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.button3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.content {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
