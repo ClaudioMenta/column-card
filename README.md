@@ -9,7 +9,7 @@
 
 ### O que aprendi.
 
-Além de escrever um código semântico com intuito melhorar o ranqueamento junto aos motores de busca e principalmente ajudar na acessebilidade.
+Além de escrever um código semântico com intuito de melhorar o ranqueamento junto aos motores de busca e principalmente ajudar na acessebilidade.
 Pude compreender melhor como utilizar o modelo de layout FlexBox para auxiliar na disposição de cada conteúdo dentro do projeto, ganhando produtividade.
 
 ```html
